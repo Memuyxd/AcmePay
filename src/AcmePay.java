@@ -42,7 +42,7 @@ public class AcmePay {
         //retirement plan
         if (shift == 2 || shift == 3) {
             System.out.printf("Do you want to participate in the retirement plan?%n     Enter 1 for Yes and 2 for No >> ");
-            int retireDecision = 1;
+            int retireDecision = input.nextInt();
             if (retireDecision == 1) {
                  retireDeduct =  0.03;
                 
